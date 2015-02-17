@@ -1,7 +1,7 @@
-# generators
+# Generators
 Generate JS, CSS, HTML and PHP snippets with just one command!
 
-# Commands
+## Commands
 
 Generate a JavaScript class. Takes the file name as an argument.
 
