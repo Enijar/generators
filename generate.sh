@@ -12,6 +12,12 @@ function genSass() {
     sass --watch css/main.scss:css/main.css
 }
 
+# Sass structure
+function genHtml() {
+    cp ~/Desktop/boilerplate/generators/html/index.html `pwd`/index.html
+}
+
 # Alias shortcuts
 alias gen:js="genJs"
 alias gen:sass="genSass"
+alias gen:html="genHtml"
