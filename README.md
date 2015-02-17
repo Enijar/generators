@@ -24,7 +24,6 @@ Generate Sass directory structure and files. View the sass directory for example
 ```bash
 gen:sass
 ```
-```
 
 Generate HTML5 index file.
 
