@@ -12,7 +12,7 @@ function genSass() {
     sass --watch css/main.scss:css/main.css
 }
 
-# Sass structure
+# HTML file
 function genHtml() {
     cp ~/Desktop/boilerplate/generators/html/index.html `pwd`/index.html
 }
