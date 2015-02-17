@@ -6,7 +6,7 @@ Generate JS, CSS, HTML and PHP snippets with just one command!
 Copy all files into ~/Desktop/boilerplate/generators then run the following command:
 
 ```bash
-echo "source ~/Desktop/boilerplate/generators/generate.sh" > ~/.bash_profile
+echo "source ~/Desktop/boilerplate/generators/generate.sh" >> ~/.bash_profile
 ```
 
 *That's it, you're good to go!*
