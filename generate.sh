@@ -6,13 +6,13 @@ function genJs() {
     perl -pi -e "s/CLASS_NAME/$1/g" `pwd`/$1.js
 }
 
-# Sass structure
+# Sass structure with Bootstrap v3
 function genSass() {
     cp -R ~/Desktop/boilerplate/generators/sass `pwd`/css
     sass --watch css/main.scss:css/main.css
 }
 
-# HTML file
+# HTML5 file
 function genHtml() {
     cp ~/Desktop/boilerplate/generators/html/index.html `pwd`/index.html
 }
